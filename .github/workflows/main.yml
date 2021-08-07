@@ -16,9 +16,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://github.com/Rajan355/learn/raw/main/ngrok.exe -OutFile ngrok.exe
 
-        Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://github.com/Rajan355/learn/raw/main/nssm.exe -OutFile nssm.exe
 
     - name: Copy NSSM & Ngrok to Windows Directory.
 
@@ -40,11 +40,11 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/NGROK-AP.bat -OutFile NGROK-AP.bat
+        Invoke-WebRequest https://github.com/Rajan355/learn/raw/main/NGROK-AP.bat -OutFile NGROK-AP.bat
 
-        Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
+        Invoke-WebRequest https://github.com/Rajan355/learn/raw/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
 
-        Invoke-WebRequest https://github.com/avgchamara/WindowsRDP/raw/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/Rajan355/learn/raw/main/loop.bat -OutFile loop.bat
 
     - name: Make YML file for NGROK.
 
